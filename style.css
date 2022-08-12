@@ -4,3 +4,205 @@
     padding:0px;
     margin:0px;
 }
+
+body{
+    background-color: #FFF7F0;
+    font-family:'Plus Jakarta Sans';
+}
+
+.main-container{
+    margin: 16px 16px 32px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.container-of-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image{
+    height: 48px;
+    width: 48px;
+}
+
+.black-button{
+    background: #030303;
+    border-radius: 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color:#FFF7F0;
+    height: 44px;
+    width: 176px;
+    cursor: pointer;
+}
+
+.top-header{
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-header h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#030303;
+    margin-bottom: 16px;
+}
+
+.top-header p{
+    max-width: 287px;
+}
+
+.texts{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color:#7A746E;
+}
+
+.images-container{
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profession-texts{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color:#FFFFFF;
+    margin-left:24px;
+    margin-bottom: 24px;
+}
+
+.box-style{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.graphic-design-box{
+    background-color: #755CDE;
+    height: 364px;
+    width: 343px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.profession-pictures{
+    transform: translate(190px, 24px);
+}
+
+.uiux-and-app-Box{
+    margin-bottom: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.ui-ux-box{
+    height: 182px;
+    width: 159px;
+    border-radius: 8px;
+    background-color: #F6A560;
+}
+
+.apps-box{
+    height: 182px;
+    width: 159px;
+    border-radius: 8px;
+    background-color: #F39E9E;
+}
+
+.little-profession-images{
+    transform: translate(71px, 24px);
+}
+
+.illustrations-box{
+    height: 158px;
+    width: 343px;
+    border-radius: 8px;
+    background-color:#EB7565;
+}
+
+.photography-box{
+    height: 182px;
+    width: 343px;
+    border-radius: 8px;
+    background-color:#61C4B7;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.photography-box img{
+    transform: translate(160px, 24px);
+}
+
+.motion-graphics-box{
+    height: 182px;
+    width: 343px;
+    border-radius: 8px;
+    background-color:#552049;
+}
+
+.girls-container{
+    margin-bottom: 100px;
+}
+
+.amy-image{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.amy-text-box h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color:#030303;
+    margin-bottom: 24px;
+}
+
+.light-red-button{
+    height: 44px;
+    width: 176px;
+    border-radius: 28px;
+    background: #EB7565;
+    color:#FFF7F0;
+    margin-top: 24px;
+    border:none;
+    cursor: pointer;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.sliders-container{
+    margin-bottom: 100px;
+}
+
+.sliders-container h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color:#030303;
+    margin-bottom: 32px;
+}
