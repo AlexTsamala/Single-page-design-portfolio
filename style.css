@@ -42,6 +42,7 @@ header{
     height: 44px;
     width: 176px;
     cursor: pointer;
+    border: none;
 }
 
 .top-header{
@@ -80,6 +81,12 @@ header{
     align-items: center;
 }
 
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .profession-texts{
     font-size: 24px;
     font-weight: 700;
@@ -109,10 +116,13 @@ header{
     transform: translate(190px, 24px);
 }
 
-.uiux-and-app-Box{
+.uiux-app-illustration-section{
     margin-bottom: 24px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
+    max-width: 700px;
 }
 
 .ui-ux-box{
@@ -145,7 +155,6 @@ header{
     width: 343px;
     border-radius: 8px;
     background-color:#61C4B7;
-    margin-top: 24px;
     margin-bottom: 24px;
 }
 
@@ -196,6 +205,7 @@ header{
 
 .sliders-container{
     margin-bottom: 100px;
+
 }
 
 .sliders-container h2{
@@ -205,4 +215,224 @@ header{
     text-align: center;
     color:#030303;
     margin-bottom: 32px;
+}
+
+.images-container-slide{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.slide-images{
+    border-radius: 10px;
+    width: 71%;
+    transition: 0.3s;
+}
+
+.slider-buttons-box{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+#left-slide-button{
+    height: 64px;
+    width: 64px;
+    background-color: #030303;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border:none;
+}
+
+#right-slide-button{
+    height: 64px;
+    width: 64px;
+    background-color: #030303;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border:none;
+}
+
+.container-of-booking{
+    margin-bottom: 42px;
+    background-color: #030303;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-of-booking h2{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    color:#FFF7F0;
+    padding-top: 49px;
+    padding-bottom: 24px;
+}
+
+.container-of-booking p{
+    color:#FFF7F0;
+    max-width:296px;
+}
+
+.container-of-booking button{
+    margin-bottom: 48px;
+}
+
+#left-slide-button:hover{
+    background-color: #755CDE;
+}
+
+#right-slide-button:hover{
+    background-color: #755CDE;
+}
+
+.black-button:hover{
+    background-color: #755CDE;
+}
+
+.light-red-button:hover{
+    background-color: #F6A560;
+}
+
+@media (min-width:768px) {
+
+.main-container{
+    margin:34px 39px 56px;
+} 
+    
+.logo-image{
+    height: 64px;
+    width: 64px;
+}
+
+.black-button{
+    height: 56px;
+    width: 228px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.top-header h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.top-header p{
+    max-width: 573px;
+}
+
+.texts{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.uiux-app-illustration-section{
+    max-width: 345px;
+}
+
+.section-1{
+    flex-direction: row;
+    gap: 24px;
+}
+
+.section-2{
+    display: flex;
+    gap: 24px;
+}
+
+.amy-text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.amy-text-box h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+
+.amy-text-box p{
+    text-align: left;
+}
+
+.light-red-button{
+    height: 56px;
+    width: 228px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.amy-image{
+    width:364px;
+    height:364px;
+    transform: translateX(-23%);
+}
+
+.container-of-booking{
+    margin-bottom: 60px;
+}
+
+.container-of-booking h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.container-of-booking p{
+    min-width:540px;
+}
+}
+
+@media (min-width:1440px) {
+.main-container{
+    margin:34px 165px 64px;
+}
+
+.top-header{
+    margin-bottom: 80px;
+}
+
+.top-header p{
+    min-width: 730px;
+}
+
+.images-container{
+    flex-direction: row;
+    align-items: flex-start;
+    gap:24px;
+}
+
+.graphic-design-box{
+    width:354px;
+}
+
+.section-2{
+    flex-direction: column;
+}
+
+.photography-box{
+    margin-bottom: 0;
+    width: 354px;
+}
+
+ .motion-graphics-box{
+    height: 158px;
+    width: 354px;
+} 
+
 }
