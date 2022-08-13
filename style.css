@@ -113,7 +113,9 @@ header{
 }
 
 .profession-pictures{
-    transform: translate(190px, 24px);
+    align-self: flex-end;
+    margin-right: 24px;
+    padding-top:24px
 }
 
 .uiux-app-illustration-section{
@@ -140,7 +142,9 @@ header{
 }
 
 .little-profession-images{
-    transform: translate(71px, 24px);
+    align-self: flex-end;
+    padding-right: 24px;
+    padding-top:24px
 }
 
 .illustrations-box{
@@ -159,7 +163,9 @@ header{
 }
 
 .photography-box img{
-    transform: translate(160px, 24px);
+    align-self: flex-end;
+    margin-right: 24px;
+    padding-top: 24px;
 }
 
 .motion-graphics-box{
@@ -270,7 +276,7 @@ header{
     align-items: center;
 }
 
-.container-of-booking h2{
+.bookCall h2{
     font-size: 26px;
     font-weight: 700;
     line-height: 33px;
@@ -279,7 +285,7 @@ header{
     padding-bottom: 24px;
 }
 
-.container-of-booking p{
+.bookCall p{
     color:#FFF7F0;
     max-width:296px;
 }
@@ -387,13 +393,13 @@ header{
     margin-bottom: 60px;
 }
 
-.container-of-booking h2{
+.bookCall h2{
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
 }
 
-.container-of-booking p{
+.bookCall p{
     min-width:540px;
 }
 }
@@ -417,22 +423,90 @@ header{
     gap:24px;
 }
 
+.uiux-app-illustration-section{
+    max-width: 100%;
+}
+
 .graphic-design-box{
-    width:354px;
+    width:60%;
+}
+
+.section-1{
+    width: 65%;
 }
 
 .section-2{
     flex-direction: column;
+    width: 38%;
 }
 
 .photography-box{
     margin-bottom: 0;
-    width: 354px;
+    width: 100%;
 }
 
  .motion-graphics-box{
     height: 158px;
-    width: 354px;
+    width: 100%;;
 } 
+
+.illustrations-box{
+    width:100%;
+}
+
+.apps-box{
+    width: 46%
+}
+
+.ui-ux-box{
+    width: 46%
+}
+
+.girls-container{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.amy-image{
+    width:445px;
+    height:445px;
+    transform: none;
+}
+
+.amy-text-box h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.images-container-slide{
+    overflow: visible;
+}
+
+.container-of-booking{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 81px 95px 80px 65px;
+}
+
+.bookCall h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    padding:0;
+    padding-bottom:25px;
+}
+
+.bookCall p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+
 
 }
